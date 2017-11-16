@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_element"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:padding="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:gravity="start"
+            android:textColor="#000"
+            android:textSize="@dimen/title_size"
+            android:text="Taschengeld" />
+
+        <TextView
+            android:id="@+id/dateV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:gravity="end"
+            android:text="12.11.2017" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/valueV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_margin="4dp"
+        android:gravity="end"
+        android:textColor="@color/valueGreen"
+        android:textSize="@dimen/value_size"
+        android:text="+250,00" />
+</LinearLayout>
