@@ -1,0 +1,105 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml
+		INJECTED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml
+		INJECTED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml
+		INJECTED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml
+application
+ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:5:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/adbe/.android/build-cache/cbde5b44d25848af7b50d6a71b3e3899842d803a/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/adbe/.android/build-cache/24ee5d5923f619e9baafcdbfdd1324012e2983ee/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/adbe/.android/build-cache/b50cc885a7a575ad067dfd2b69e7b160dcea2bc5/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/adbe/.android/build-cache/6c68f5a272cab11973ecdb93658a4c8db2d961c5/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/adbe/.android/build-cache/222892da49a88d8ec231060d9ac82661e0111ca1/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/adbe/.android/build-cache/33262cf29134890581e9144d15be9356ba22a36a/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/adbe/.android/build-cache/ca51397bce778897e7688dfa1487f6a6f7a2d6e1/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/adbe/.android/build-cache/de90e1c02d43290f9900313f28c6195b24fb9629/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/adbe/.android/build-cache/af8ce7f28e0056ec42807e2a0a8564fc35108c99/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/adbe/.android/build-cache/1d398d5fe78e4d9aa07ebb014822406d112520cc/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/adbe/.android/build-cache/2281ce2033c1ed0ee7beae8934d7084a2f854446/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/adbe/.android/build-cache/4904ab9082484910bd413dbcb79f853d368607ed/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.adbe.mm.MainActivity
+ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.example.adbe.mm.AddEntry
+ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:22:9-25:24
+	android:parentActivityName
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:24:13-55
+	android:name
+		ADDED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml:23:13-37
+uses-sdk
+INJECTED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/adbe/.android/build-cache/cbde5b44d25848af7b50d6a71b3e3899842d803a/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/adbe/.android/build-cache/24ee5d5923f619e9baafcdbfdd1324012e2983ee/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/adbe/.android/build-cache/b50cc885a7a575ad067dfd2b69e7b160dcea2bc5/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/adbe/.android/build-cache/6c68f5a272cab11973ecdb93658a4c8db2d961c5/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/adbe/.android/build-cache/222892da49a88d8ec231060d9ac82661e0111ca1/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/adbe/.android/build-cache/881ac20690d72a02ccf69d8623ac7de9c961de1a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/adbe/.android/build-cache/33262cf29134890581e9144d15be9356ba22a36a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/adbe/.android/build-cache/ca51397bce778897e7688dfa1487f6a6f7a2d6e1/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/adbe/.android/build-cache/de90e1c02d43290f9900313f28c6195b24fb9629/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/adbe/.android/build-cache/af8ce7f28e0056ec42807e2a0a8564fc35108c99/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/adbe/.android/build-cache/1d398d5fe78e4d9aa07ebb014822406d112520cc/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/adbe/.android/build-cache/2281ce2033c1ed0ee7beae8934d7084a2f854446/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/adbe/.android/build-cache/4904ab9082484910bd413dbcb79f853d368607ed/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/adbe/.android/build-cache/24ee5d5923f619e9baafcdbfdd1324012e2983ee/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml
+		INJECTED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml
+		INJECTED from /media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0-alpha1] /home/adbe/.android/build-cache/24ee5d5923f619e9baafcdbfdd1324012e2983ee/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/adbe/.android/build-cache/b50cc885a7a575ad067dfd2b69e7b160dcea2bc5/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/adbe/.android/build-cache/6c68f5a272cab11973ecdb93658a4c8db2d961c5/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/adbe/.android/build-cache/222892da49a88d8ec231060d9ac82661e0111ca1/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/adbe/.android/build-cache/881ac20690d72a02ccf69d8623ac7de9c961de1a/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/adbe/.android/build-cache/33262cf29134890581e9144d15be9356ba22a36a/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/adbe/.android/build-cache/ca51397bce778897e7688dfa1487f6a6f7a2d6e1/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/adbe/.android/build-cache/de90e1c02d43290f9900313f28c6195b24fb9629/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/adbe/.android/build-cache/af8ce7f28e0056ec42807e2a0a8564fc35108c99/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/adbe/.android/build-cache/1d398d5fe78e4d9aa07ebb014822406d112520cc/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/adbe/.android/build-cache/2281ce2033c1ed0ee7beae8934d7084a2f854446/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/adbe/.android/build-cache/4904ab9082484910bd413dbcb79f853d368607ed/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/adbe/.android/build-cache/24ee5d5923f619e9baafcdbfdd1324012e2983ee/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/adbe/.android/build-cache/24ee5d5923f619e9baafcdbfdd1324012e2983ee/output/AndroidManifest.xml:26:9-47

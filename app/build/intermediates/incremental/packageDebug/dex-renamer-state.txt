@@ -1,0 +1,7 @@
+#Thu Nov 16 23:13:46 CET 2017
+base.0=/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9540934325a71d6909b0b3dfac097d35f9798fc4
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8b88f826ded2e30306368a26c47765c68f0f4fbb/classes.dex
+base.1=/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8b88f826ded2e30306368a26c47765c68f0f4fbb
+file.0=/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9540934325a71d6909b0b3dfac097d35f9798fc4/classes.dex

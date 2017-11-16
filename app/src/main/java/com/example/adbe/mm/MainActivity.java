@@ -1,9 +1,11 @@
 package com.example.adbe.mm;
 
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.DialogFragment;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
@@ -27,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        for(int i = 0; i < 8; i++) {
+        for(int i = 0; i < 3; i++) {
             addView((ViewGroup) this.findViewById(R.id.list), "Titel"+i, 1000000000L*i, 100*i);
 
         }
@@ -46,9 +48,16 @@ public class MainActivity extends AppCompatActivity {
     public void addView(ViewGroup vg, String title, long date, int value){
 
 
-        View someLayoutView = LayoutInflater.from(vg.getContext()).inflate(
+        ViewGroup le = (ViewGroup) LayoutInflater.from(vg.getContext()).inflate(
                 R.layout.list_element, null);
-        vg.addView(someLayoutView);
+        ((TextView)le.getChildAt(1)).setText(value+",00");
+
+        ((TextView)((ViewGroup)le.getChildAt(0)).getChildAt(0)).setText(title);
+
+        DateFormat df = new SimpleDateFormat("dd.MM.yyyy");
+        ((TextView)((ViewGroup)le.getChildAt(0)).getChildAt(1)).setText(df.format(new Date(date)));
+
+        vg.addView(le);
 
         /*LinearLayout ll = new LinearLayout(vg.getContext());
         setContentView(R.layout.list_element);
