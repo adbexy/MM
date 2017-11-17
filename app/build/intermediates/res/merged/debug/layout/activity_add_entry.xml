@@ -99,6 +99,7 @@
         android:id="@+id/save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="showDatePickerDialog"
         android:layout_marginTop="@dimen/default_margin"
         android:text="Speichern" />
 

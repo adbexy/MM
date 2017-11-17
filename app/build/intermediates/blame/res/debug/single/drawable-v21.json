@@ -1,34 +1,34 @@
 [
     {
-        "merged": "/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
-        "source": "/home/adbe/.android/build-cache/24ee5d5923f619e9baafcdbfdd1324012e2983ee/output/res/drawable-v21/design_password_eye.xml"
+        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
-        "merged": "/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
-        "source": "/home/adbe/.android/build-cache/24ee5d5923f619e9baafcdbfdd1324012e2983ee/output/res/drawable-v21/avd_show_password.xml"
+        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\Vincent\\.android\\build-cache\\076bd557df79e7092ffce40f3b46e15683bfce6e\\output\\res\\drawable-v21\\avd_show_password.xml"
     },
     {
-        "merged": "/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/home/adbe/.android/build-cache/b50cc885a7a575ad067dfd2b69e7b160dcea2bc5/output/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
-        "source": "/home/adbe/.android/build-cache/24ee5d5923f619e9baafcdbfdd1324012e2983ee/output/res/drawable-v21/avd_hide_password.xml"
+        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\Vincent\\.android\\build-cache\\076bd557df79e7092ffce40f3b46e15683bfce6e\\output\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
-        "merged": "/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/home/adbe/.android/build-cache/b50cc885a7a575ad067dfd2b69e7b160dcea2bc5/output/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Vincent\\.android\\build-cache\\076bd557df79e7092ffce40f3b46e15683bfce6e\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/home/adbe/.android/build-cache/b50cc885a7a575ad067dfd2b69e7b160dcea2bc5/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\drawable-v21\\notification_action_background.xml"
     },
     {
-        "merged": "/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
-        "source": "/home/adbe/.android/build-cache/24ee5d5923f619e9baafcdbfdd1324012e2983ee/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\Vincent\\.android\\build-cache\\076bd557df79e7092ffce40f3b46e15683bfce6e\\output\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
-        "merged": "/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/home/adbe/.android/build-cache/b50cc885a7a575ad067dfd2b69e7b160dcea2bc5/output/res/drawable-v21/notification_action_background.xml"
+        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     }
 ]
