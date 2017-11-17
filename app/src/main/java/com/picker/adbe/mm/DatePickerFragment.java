@@ -8,6 +8,9 @@ import android.support.v4.app.DialogFragment;
 import android.widget.DatePicker;
 import android.widget.TextView;
 
+import com.example.adbe.mm.AddEntry;
+
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 public class DatePickerFragment extends DialogFragment
@@ -26,16 +29,14 @@ public class DatePickerFragment extends DialogFragment
     }
 
     public void onDateSet(DatePicker view, int year, int month, int day) {
-        String dateStr = "";
-        if (day <= 9) dateStr += "0" + day;
-        else dateStr += "" + day;
 
-        if (month <= 9) dateStr += ".0" + month;
-        else dateStr += "." + month;
+        Calendar c = Calendar.getInstance();
+        c.set(year, month, day);
 
-        dateStr += "." + year;
+        SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
 
-
-        //TODO find method to transmit 'dateStr' into AddEntry instance or connected TextView
+        ((AddEntry)getActivity()).setDatePreview(sdf.format(c.getTime()));
+        //!works oly for that one DatePicker performed by "AddEntry", if no interface is used in
+        //! AddEntry
     }
 }

@@ -18,10 +18,15 @@ import android.widget.TextView;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+
+import de.adbe.mm.Item;
+import de.adbe.mm.ItemManager;
 
 public class MainActivity extends AppCompatActivity {
 
+    public ItemManager itemM = new ItemManager(this);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,8 +34,17 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        for(int i = 0; i < 3; i++) {
-            addView((ViewGroup) this.findViewById(R.id.list), "Titel"+i, 1000000000L*i, 100*i);
+
+        itemM.addItem("Titel irgendwie", 100000000000L, 2323);
+        itemM.addItem("Titel2 irgendwie", 1000000000000L, 23);
+        itemM.addItem("Titel ie", 10000000000000L, 100);
+        itemM.addItem("Titel3 irgendwie", 100000000000000L, 10000);
+        itemM.addStoredItems();
+        ArrayList<Item> items = itemM.getAllItems();
+        for(int i = 0; i < items.size(); i++) {
+            Item item = items.get(i);
+            addView((ViewGroup) this.findViewById(R.id.list),
+                    item.getTitle(), item.getDate(), item.getValue());
 
         }
 
@@ -50,7 +64,13 @@ public class MainActivity extends AppCompatActivity {
 
         ViewGroup le = (ViewGroup) LayoutInflater.from(vg.getContext()).inflate(
                 R.layout.list_element, null);
-        ((TextView)le.getChildAt(1)).setText(value+",00");
+        
+        int cent = value % 100;
+        String centS = "" + cent;
+        if(cent < 10){
+            centS = "0"+centS;
+        }
+        ((TextView)le.getChildAt(1)).setText(value/100+","+centS);
 
         ((TextView)((ViewGroup)le.getChildAt(0)).getChildAt(0)).setText(title);
 
@@ -59,37 +79,6 @@ public class MainActivity extends AppCompatActivity {
 
         vg.addView(le);
 
-        /*LinearLayout ll = new LinearLayout(vg.getContext());
-        setContentView(R.layout.list_element);
-
-        vg.addView(ll);*/
-
-        /*LinearLayout ll = new LinearLayout(vg.getContext());
-        ll.setOrientation(LinearLayout.HORIZONTAL);
-
-        LinearLayout subll = new LinearLayout(ll.getContext());
-        ll.setOrientation(LinearLayout.VERTICAL);
-
-        TextView titleV = new TextView(subll.getContext());
-        titleV.setText(title);
-
-
-        TextView dateV = new TextView(subll.getContext());
-        DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
-        dateV.setText(df.format(new Date(date)));
-
-        TextView valueV = new TextView(ll.getContext());
-        String cent = ""+value%100;
-        if(cent.length() >= 9){
-            cent = "0"+cent;
-        }
-        valueV.setText(value/100 + "," + cent);
-
-        subll.addView(titleV);
-        subll.addView(dateV);
-        ll.addView(subll);
-        ll.addView(valueV);
-        vg.addView(ll);*/
 
     }
 

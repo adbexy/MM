@@ -8,19 +8,6 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Title" />
-
-    <EditText
-        android:id="@+id/editTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/default_margin"
-        android:ems="10"
-        android:maxLength="60" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -52,10 +39,9 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/default_margin"
                 android:gravity="end"
-                android:textSize="@dimen/title_size"
-                android:textColor="#000"
                 android:text="01.01.1970"
-                />
+                android:textColor="#000"
+                android:textSize="@dimen/title_size" />
 
             <Button
                 android:id="@+id/changeDate"
@@ -95,11 +81,25 @@
 
     </LinearLayout>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title" />
+
+    <EditText
+        android:id="@+id/editTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin"
+        android:ems="10"
+        android:maxLength="60" />
+
     <Button
         android:id="@+id/save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/default_margin"
-        android:text="Speichern" />
+        android:text="Speichern"
+        android:onClick="saveItem"/>
 
 </android.widget.LinearLayout>
