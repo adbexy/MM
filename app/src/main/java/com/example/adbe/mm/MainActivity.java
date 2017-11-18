@@ -26,7 +26,13 @@ import de.adbe.mm.ItemManager;
 
 public class MainActivity extends AppCompatActivity {
 
+//<<<<<<< HEAD
     public ItemManager itemM = new ItemManager(this);
+//=======
+    // Request id for the add entry activity
+    private static int ADD_ENTRY_REQUEST = 1;
+
+//>>>>>>> origin/master
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,11 +58,39 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Okay", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
                 openNew();
             }
         });
+    }
+
+    public void openNew(){
+        Intent intent = new Intent(this, AddEntry.class);
+        startActivityForResult(intent, ADD_ENTRY_REQUEST);
+    }
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+        if (requestCode == ADD_ENTRY_REQUEST) {
+            if(resultCode == RESULT_OK){
+                //addView((ViewGroup) this.findViewById(R.id.list), data.getStringExtra("title"), data.getStringExtra("date"), data.getDoubleExtra("value", 2.0));
+                //TODO tore data to itemM
+            }
+            if (resultCode == RESULT_CANCELED) {
+
+            }
+        }
+    }
+
+    public static void addView(ViewGroup vg, String title, String date, double value) {
+        ViewGroup le = (ViewGroup) LayoutInflater.from(vg.getContext()).inflate(R.layout.list_element, null);
+        ((TextView)le.getChildAt(1)).setText(value+"");
+
+        ((TextView)((ViewGroup)le.getChildAt(0)).getChildAt(0)).setText(title);
+
+
+        ((TextView)((ViewGroup)le.getChildAt(0)).getChildAt(1)).setText(date);
+
+        vg.addView(le);
     }
 
     public void addView(ViewGroup vg, String title, long date, int value){
@@ -82,10 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void openNew(){
-        Intent intent = new Intent(this, AddEntry.class);
-        startActivity(intent);
-    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
