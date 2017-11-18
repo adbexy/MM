@@ -26,6 +26,7 @@ import de.adbe.mm.ItemManager;
 public class MainActivity extends AppCompatActivity {
 
     public ItemManager itemM = new ItemManager(this);
+    // Request id for the add entry activity
     private static int ADD_ENTRY_REQUEST = 1;
     public LinearLayout list;
 
@@ -87,13 +88,20 @@ public class MainActivity extends AppCompatActivity {
 
         ViewGroup le = (ViewGroup) LayoutInflater.from(vg.getContext()).inflate(
                 R.layout.list_element, null);
-        
-        int cent = value % 100;
-        String centS = "" + cent;
-        if(cent < 10){
-            centS = "0"+centS;
+
+        String valueS = "";
+        if(value < 0) {
+            valueS += "-";
+            value = Math.abs(value);
         }
-        ((TextView)le.getChildAt(1)).setText(value/100+"."+centS);
+        valueS += value/100 + ".";
+        if(value % 100 < 10) valueS += "0";
+        valueS += "" + value % 100;
+
+        if(valueS.charAt(0) == '-'){
+            ((TextView)le.getChildAt(1)).setTextColor(getResources().getColor(R.color.valueRed, null));
+        }
+        ((TextView)le.getChildAt(1)).setText(valueS);
 
         ((TextView)((ViewGroup)le.getChildAt(0)).getChildAt(0)).setText(title);
 

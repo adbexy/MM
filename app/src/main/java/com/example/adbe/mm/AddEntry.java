@@ -47,6 +47,7 @@ public class AddEntry extends AppCompatActivity implements DatePickerFragment.On
     private EditText eValue;
 
     private CheckBox stime;
+    private CheckBox income;
 //>>>>>>> origin/master
 
     @Override
@@ -83,7 +84,8 @@ public class AddEntry extends AppCompatActivity implements DatePickerFragment.On
                     returnInt.putExtra("date", date.getTime());
                 }
                 returnInt.putExtra("title", eTitle.getText().toString());
-                returnInt.putExtra("value", parseValue(eValue.getText().toString()));
+                returnInt.putExtra("value",
+                        parseValue(eValue.getText().toString(), !income.isChecked()));
                 setResult(RESULT_OK, returnInt);
 
                 // closes the Activity
@@ -93,6 +95,7 @@ public class AddEntry extends AppCompatActivity implements DatePickerFragment.On
 
         eTitle = (EditText) findViewById(R.id.editTitle);
         eValue = (EditText) findViewById(R.id.editValue);
+        income = (CheckBox) findViewById(R.id.income);
         datePreview = (TextView) findViewById(R.id.datePreview);
 
         Calendar c = Calendar.getInstance();
@@ -120,30 +123,35 @@ public class AddEntry extends AppCompatActivity implements DatePickerFragment.On
 
     }*/
 
-    private int parseValue(String valueS){
-        int value;
+    private int parseValue(String valueS, boolean negative){
+        int value = 0;
         int indexOfSeperator = valueS.indexOf( (int)('.') );
 
         if(indexOfSeperator > -1){
             String storage = valueS.substring(0, indexOfSeperator);
-            value = Integer.parseInt(storage)*100;
+            if(!storage.equals("")){
+                value += Integer.parseInt(storage)*100;
+            }
 
-            storage = valueS.substring(indexOfSeperator+1, indexOfSeperator+3);
+            if(valueS.length() == indexOfSeperator) storage = "0";
+            else if (valueS.length() < indexOfSeperator+3) storage = valueS.substring(indexOfSeperator + 1);
+            else storage = valueS.substring(indexOfSeperator + 1, indexOfSeperator + 3);
+
+            while (storage.length() < 2){
+                storage += "0";
+            }
+
             value += Integer.parseInt(storage);
         }
         else {
-            value = Integer.parseInt(valueS);
+            if(!valueS.equals("")) {
+                value = Integer.parseInt(valueS) * 100;
+            }
         }
 
-        return value;
+        if (negative) return -1 * value;
+        else return value;
     }
-
-    /*private long parseDate(String dateS){
-        Calendar c = Calendar.getInstance();
-        c.set(Integer.parseInt(dateS.substring(6)), Integer.parseInt(dateS.substring(3, 5)),
-                Integer.parseInt(dateS.substring(0, 2)));
-        return c.getTime().getTime();
-    }*/
 
     @Override
     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {

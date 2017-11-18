@@ -1,4 +1,4 @@
-#Fri Nov 17 22:27:08 CET 2017
+#Sat Nov 18 17:17:31 CET 2017
 base.0=/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9540934325a71d6909b0b3dfac097d35f9798fc4
 renamed.1=classes2.dex
 renamed.0=classes.dex
