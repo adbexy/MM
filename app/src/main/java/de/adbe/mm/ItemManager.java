@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 public class ItemManager {
 
-    private static ArrayList<Item> storedItems = new ArrayList<Item>();
     private ArrayList<Item> itemList = new ArrayList<Item>();
     private int idCounter = 0;
 
@@ -16,18 +15,6 @@ public class ItemManager {
 
     public ItemManager(AppCompatActivity superActivity){
         activity = superActivity;
-    }
-
-    public void addStoredItems(){
-        for(Item i:ItemManager.storedItems){
-            i.resetId(idCounter);
-            idCounter++;
-            itemList.add(i);
-        }
-    }
-
-    public static void storeItem(String string, long date, int value){
-        storedItems.add(new Item(0, string, date, value));
     }
 
     public ArrayList<Item> getAllItems() {

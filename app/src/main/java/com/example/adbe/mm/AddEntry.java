@@ -39,10 +39,12 @@ public class AddEntry extends AppCompatActivity implements DatePickerFragment.On
 
     //dp != Double Penetration
     private DialogFragment dp;
-    private TextView tv;
+    private TextView datePreview;
+
+    private SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
     //et != E.T.
-    private EditText et1;
-    private EditText et2;
+    private EditText eTitle;
+    private EditText eValue;
 
     private CheckBox stime;
 //>>>>>>> origin/master
@@ -56,8 +58,14 @@ public class AddEntry extends AppCompatActivity implements DatePickerFragment.On
         stime.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (isChecked) {findViewById(R.id.changeDate).setEnabled(false);}
-                else {findViewById(R.id.changeDate).setEnabled(true);}
+                if (isChecked) {
+                    findViewById(R.id.changeDate).setEnabled(false);
+                    datePreview.setText(sdf.format(Calendar.getInstance().getTime()));
+                }
+                else {
+                    findViewById(R.id.changeDate).setEnabled(true);
+                    datePreview.setText(sdf.format(date));
+                }
         }
         });
 
@@ -66,13 +74,16 @@ public class AddEntry extends AppCompatActivity implements DatePickerFragment.On
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
-
                 // creates an Intent storing the necessary data
                 Intent returnInt = new Intent();
-                returnInt.putExtra("date", sdf.format(date));
-                returnInt.putExtra("title", et1.getText().toString());
-                returnInt.putExtra("value", 1.0);
+                if(stime.isChecked()){
+                    returnInt.putExtra("date", Calendar.getInstance().getTime().getTime());
+                }
+                else {
+                    returnInt.putExtra("date", date.getTime());
+                }
+                returnInt.putExtra("title", eTitle.getText().toString());
+                returnInt.putExtra("value", parseValue(eValue.getText().toString()));
                 setResult(RESULT_OK, returnInt);
 
                 // closes the Activity
@@ -80,9 +91,13 @@ public class AddEntry extends AppCompatActivity implements DatePickerFragment.On
             }
         });
 
-        et1 = (EditText) findViewById(R.id.editTitle);
-        et2 = (EditText) findViewById(R.id.editValue);
-        tv = (TextView) findViewById(R.id.datePreview);
+        eTitle = (EditText) findViewById(R.id.editTitle);
+        eValue = (EditText) findViewById(R.id.editValue);
+        datePreview = (TextView) findViewById(R.id.datePreview);
+
+        Calendar c = Calendar.getInstance();
+        date = c.getTime();
+        datePreview.setText(sdf.format(date));
     }
 
     public void showDatePickerDialog(View v) {
@@ -113,7 +128,7 @@ public class AddEntry extends AppCompatActivity implements DatePickerFragment.On
             String storage = valueS.substring(0, indexOfSeperator);
             value = Integer.parseInt(storage)*100;
 
-            storage = valueS.substring(indexOfSeperator+1, indexOfSeperator+2);
+            storage = valueS.substring(indexOfSeperator+1, indexOfSeperator+3);
             value += Integer.parseInt(storage);
         }
         else {
@@ -135,7 +150,6 @@ public class AddEntry extends AppCompatActivity implements DatePickerFragment.On
         final Calendar calendar = Calendar.getInstance();
         calendar.set(year, month, dayOfMonth);
         date = calendar.getTime();
-        SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
-        tv.setText(sdf.format(date));
+        datePreview.setText(sdf.format(date));
     }
 }
