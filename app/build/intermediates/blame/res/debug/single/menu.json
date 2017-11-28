@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
-        "source": "/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/src/main/res/menu/menu_main.xml"
+        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\src\\main\\res\\menu\\menu_main.xml"
     }
 ]
