@@ -23,7 +23,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.adbe.mm.MainActivity"
+            android:name="com.example.adbe.mm.ListActivitiy"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
@@ -34,8 +34,12 @@
         </activity>
         <activity
             android:name="com.example.adbe.mm.AddEntry"
-            android:parentActivityName="com.example.adbe.mm.MainActivity" >
-        </activity>
+            android:parentActivityName="com.example.adbe.mm.MainActivity" />
+        <activity
+            android:name="com.example.adbe.mm.MainActivity"
+            android:label="@string/title_activity_list_activitiy"
+            android:parentActivityName="com.example.adbe.mm.ListActivitiy"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

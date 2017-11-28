@@ -1,50 +1,98 @@
 [
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\076bd557df79e7092ffce40f3b46e15683bfce6e\\output\\res\\color\\design_error.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\076bd557df79e7092ffce40f3b46e15683bfce6e\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/home/adbe/.android/build-cache/07d65d397aab4e9cfd162d2d5c08d31c4f2795f3/output/res/color/design_error.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/color/abc_hint_foreground_material_light.xml"
     }
 ]

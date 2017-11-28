@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "outputFile": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,33 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "file": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 13,
+                        "endOffset": 327
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

@@ -1,26 +1,50 @@
 [
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/layout-v11/notification_template_big_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/layout-v11/notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\layout-v11\\notification_media_action.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/layout-v11/notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\layout-v11\\notification_template_big_media.xml"
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/home/adbe/.android/build-cache/833f22b4ef6cd5b5371e0b6dd0829d4c2d12cd36/output/res/layout-v11/notification_media_action.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\layout-v11\\notification_template_big_media.xml"
     }
 ]

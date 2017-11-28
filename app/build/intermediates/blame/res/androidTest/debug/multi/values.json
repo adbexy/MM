@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,31 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Vincent\\.android\\build-cache\\5304d90694bc9577b902c263f7c943a55b5d12a3\\output\\res\\values\\values.xml",
+                    "file": "/home/adbe/.android/build-cache/7c86bc1953bed574ffe2e2f662a8a5d4f4986267/output/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "/media/adbe/RAID5/ad/bildung/3_tud/AndroidStudioProjects/MM/MM/C:\\Users\\Vincent\\.android\\build-cache\\5304d90694bc9577b902c263f7c943a55b5d12a3\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
