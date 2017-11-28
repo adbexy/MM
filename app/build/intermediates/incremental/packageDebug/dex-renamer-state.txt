@@ -1,7 +1,7 @@
-#Sat Nov 18 17:17:31 CET 2017
-base.0=/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9540934325a71d6909b0b3dfac097d35f9798fc4
+#Tue Nov 28 20:51:02 CET 2017
+base.0=C\:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_107531004f8edb1d5bc01b3e7cb1c98b71ec8a5f
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8b88f826ded2e30306368a26c47765c68f0f4fbb/classes.dex
-base.1=/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8b88f826ded2e30306368a26c47765c68f0f4fbb
-file.0=/media/adbe/Volumen/AndroidStudioProjects/GitProjects/MM/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_9540934325a71d6909b0b3dfac097d35f9798fc4/classes.dex
+file.1=C\:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c931592d3bcdebbfb82e619b9b94bb78ee945df3\\classes.dex
+base.1=C\:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c931592d3bcdebbfb82e619b9b94bb78ee945df3
+file.0=C\:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_107531004f8edb1d5bc01b3e7cb1c98b71ec8a5f\\classes.dex

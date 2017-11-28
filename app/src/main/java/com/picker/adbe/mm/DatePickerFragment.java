@@ -35,7 +35,7 @@ public class DatePickerFragment extends DialogFragment
 
         SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy");
 
-        ((AddEntry)getActivity()).setDatePreview(sdf.format(c.getTime()));
+        //((AddEntry)getActivity()).setDatePreview(sdf.format(c.getTime()));
         //!works oly for that one DatePicker performed by "AddEntry", if no interface is used in
         //! AddEntry
     }

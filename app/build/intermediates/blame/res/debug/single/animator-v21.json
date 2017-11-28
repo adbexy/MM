@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\home\\adbe\\.android\\build-cache\\24ee5d5923f619e9baafcdbfdd1324012e2983ee\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
         "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
         "source": "C:\\Users\\Vincent\\.android\\build-cache\\076bd557df79e7092ffce40f3b46e15683bfce6e\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     }

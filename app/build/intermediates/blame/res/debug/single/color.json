@@ -4,32 +4,16 @@
         "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\home\\adbe\\.android\\build-cache\\b50cc885a7a575ad067dfd2b69e7b160dcea2bc5\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\home\\adbe\\.android\\build-cache\\b50cc885a7a575ad067dfd2b69e7b160dcea2bc5\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
         "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\home\\adbe\\.android\\build-cache\\b50cc885a7a575ad067dfd2b69e7b160dcea2bc5\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
         "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\home\\adbe\\.android\\build-cache\\b50cc885a7a575ad067dfd2b69e7b160dcea2bc5\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\home\\adbe\\.android\\build-cache\\b50cc885a7a575ad067dfd2b69e7b160dcea2bc5\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
         "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
@@ -38,46 +22,6 @@
     {
         "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
         "source": "C:\\Users\\Vincent\\.android\\build-cache\\076bd557df79e7092ffce40f3b46e15683bfce6e\\output\\res\\color\\design_error.xml"
-    },
-    {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\home\\adbe\\.android\\build-cache\\b50cc885a7a575ad067dfd2b69e7b160dcea2bc5\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\home\\adbe\\.android\\build-cache\\24ee5d5923f619e9baafcdbfdd1324012e2983ee\\output\\res\\color\\design_error.xml"
-    },
-    {
-        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\home\\adbe\\.android\\build-cache\\b50cc885a7a575ad067dfd2b69e7b160dcea2bc5\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
-        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\home\\adbe\\.android\\build-cache\\b50cc885a7a575ad067dfd2b69e7b160dcea2bc5\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
-    },
-    {
-        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\home\\adbe\\.android\\build-cache\\b50cc885a7a575ad067dfd2b69e7b160dcea2bc5\\output\\res\\color\\switch_thumb_material_light.xml"
-    },
-    {
-        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\home\\adbe\\.android\\build-cache\\b50cc885a7a575ad067dfd2b69e7b160dcea2bc5\\output\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "C:\\media\\adbe\\Volumen\\AndroidStudioProjects\\GitProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\home\\adbe\\.android\\build-cache\\b50cc885a7a575ad067dfd2b69e7b160dcea2bc5\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
         "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
@@ -94,5 +38,13 @@
     {
         "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
         "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vincent\\AndroidStudioProjects\\MM\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\Vincent\\.android\\build-cache\\45906bb65ac310d9491c3b29adf368d7954e86bb\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     }
 ]

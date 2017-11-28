@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml
@@ -13,8 +13,16 @@ ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifes
 	android:versionCode
 		INJECTED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:6:22-78
 application
-ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:5:5-26:19
+ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:8:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Vincent\.android\build-cache\6d53a12eb477d8871d66309bf4c37e53b9c6a0b6\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Vincent\.android\build-cache\076bd557df79e7092ffce40f3b46e15683bfce6e\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\Vincent\.android\build-cache\45906bb65ac310d9491c3b29adf368d7954e86bb\output\AndroidManifest.xml:29:5-20
@@ -28,41 +36,41 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Vincent
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Vincent\.android\build-cache\3ca4ae2987ec3c0fa8abb507abc1b40318224b40\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Vincent\.android\build-cache\4a54a0b974fd06ac98b417b43eb3b9df1beffbbe\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:13:9-35
 	android:roundIcon
-		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:12:9-54
 	android:allowBackup
-		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:14:9-40
 activity#com.example.adbe.mm.MainActivity
-ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:12:9-21:20
+ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:15:9-24:20
 	android:label
-		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:14:13-45
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:17:13-45
 	android:theme
-		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:15:13-56
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:18:13-56
 	android:name
-		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:16:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:22:27-74
 activity#com.example.adbe.mm.AddEntry
-ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:22:9-25:24
+ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:25:9-28:24
 	android:parentActivityName
-		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:24:13-55
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:27:13-55
 	android:name
-		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:23:13-37
+		ADDED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml:26:13-37
 uses-sdk
 INJECTED from C:\Users\Vincent\AndroidStudioProjects\MM\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Vincent\.android\build-cache\6d53a12eb477d8871d66309bf4c37e53b9c6a0b6\output\AndroidManifest.xml:5:5-7:41
